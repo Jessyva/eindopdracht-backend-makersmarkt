@@ -1,5 +1,5 @@
 package com.example.Makersmarkt.model;
-public class ProductOndernemer extends Gebruiker {
+public class ProductOndernemer extends Ondernemer {
     private String website;
     private String Facebook;
     private String Twitter;

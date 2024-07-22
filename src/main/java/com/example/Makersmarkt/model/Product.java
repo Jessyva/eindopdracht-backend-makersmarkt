@@ -3,7 +3,6 @@ import jakarta.persistence.*;
 
 @Entity
 public class Product {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -17,11 +16,12 @@ public class Product {
     private ProductOndernemer productOndernemer;
 
     // Constructors
-    public Product() {}
+    public Product() {
+    }
 
     public Product(String naam, String beschrijving, String fotoUrl) {
         this.naam = naam;
         this.beschrijving = beschrijving;
         this.fotoUrl = fotoUrl;
     }
-
+}
