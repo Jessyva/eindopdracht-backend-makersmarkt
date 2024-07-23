@@ -12,4 +12,11 @@ public class OndernemerDTO {
     private String name;
     private String place;
     private String email;
+
+    public CharSequence getPassword() {
+        return null;
+    }
+
+    public void setPassword(String encryptedPassword) {
+    }
 }

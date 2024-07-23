@@ -19,4 +19,11 @@ public class MarktOndernemerDTO {
 
     @NotBlank(message = "Website link is mandatory")
     private String websiteLink;
+
+    public void setPassword(String encode) {
+    }
+
+    public CharSequence getPassword() {
+        return null;
+    }
 }

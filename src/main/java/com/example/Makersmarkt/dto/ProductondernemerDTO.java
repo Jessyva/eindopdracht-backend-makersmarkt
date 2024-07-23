@@ -25,4 +25,12 @@ public class ProductondernemerDTO {
     private List<String> socialMediaLinks; // Lijst van sociale mediakoppelingen
 
     private List<String> productPhotos; // Lijst van URLs van productfoto's
+
+    public void setPassword(String encode) {
+
+    }
+
+    public CharSequence getPassword() {
+        return null;
+    }
 }

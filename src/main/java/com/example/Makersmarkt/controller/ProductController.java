@@ -13,19 +13,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/product")
 public class ProductController {
-
+    @lombok.Setter
+    @lombok.Getter
     @Autowired
-    private ProductService productService;
-
-    @GetMapping
-    public List<Product> getAllProduct() {
-        return productService.getAllProduct();
-    }
-
-    @PostMapping
-    public Product createProduct(@RequestBody Product product) {
-        return product.createProduct(product);
-    }
-
-    // andere endpoints
+    public ProductService productService;
 }
+
