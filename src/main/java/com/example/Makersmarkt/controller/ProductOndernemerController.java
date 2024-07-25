@@ -20,7 +20,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/productondernemers")
-@CrossOrigin(origins = "http://localhost:3000") // Pas dit aan indien nodig
+@CrossOrigin(origins = "http://localhost:5432") // Pas dit aan indien nodig
 public class ProductOndernemerController {
 
     @Autowired

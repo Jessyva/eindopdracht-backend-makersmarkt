@@ -13,6 +13,7 @@ public class OndernemerService {
     }
 
     public static void saveProfile(ProductOndernemerController profile) {
+        
     }
 
     public String createOndernemer(MarktOndernemerDTO dto) {
@@ -30,7 +31,7 @@ public class OndernemerService {
         return null;
     }
 
-    public String getCurrentLoggedInUsername() {
+    public static String getCurrentLoggedInUsername() {
         return null;
     }
 
